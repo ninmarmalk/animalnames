@@ -62,3 +62,17 @@ h1 {
 
 
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    #dissDisplay {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
