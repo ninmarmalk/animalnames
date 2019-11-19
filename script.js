@@ -30,7 +30,7 @@ let adjectives = [
     'psychotic',
     'prehistoric',
     'homosexual',
-    ''
+    'Adolf Titler ass'
 ]
 
 let nouns = [
