@@ -24,7 +24,7 @@ let adjectives = [
     'broken',
     'fat-nosed, sorry ass',
     'schizophrenic',
-    'diabetic, chronic fat-fuck',
+    'diabetic, chronically stupid',
     'depressed, flimsy-necked',
     'lonely, spiritless',
     'psychotic',
@@ -36,6 +36,7 @@ let adjectives = [
 let nouns = [
     'mountain rat',
     'camel-toe',
+    'cornish hen',
     'rainbow puffin',
     'hawaiian bush squirrel',
     'korean beaver',
@@ -43,6 +44,16 @@ let nouns = [
     'water parrot',
     'river otter',
     'badger',
+    'Swahili farm chicken',
+    'field mouse',
+    'mountain goat',
+    'puffer fish',
+    'shrew',
+    'siamese goat',
+    'goldfish',
+    'lesbian fox',
+    'west korean porcupine',
+    'armadillo',
     'spiny rat',
     'asian goose',
     'jackal',
@@ -70,6 +81,4 @@ function newDiss() {
     var randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
 
     document.getElementById('dissDisplay').innerHTML = `${randomAdj} ${randomNoun}`
-
-
 }
