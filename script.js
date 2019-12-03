@@ -87,13 +87,9 @@ let nouns = [
 
 
 
-// function newDiss() {
-//     var randomAdj = adjectives[Math.floor(Math.random() * adjectives.length)];
-//     var randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
-
-//     document.getElementById('dissDisplay').innerHTML = `${randomAdj} ${randomNoun}`
-// }
-
 function newDiss() {
-    var random
+    var randomAdj = adjectives[Math.floor(Math.random() * adjectives.length)];
+    var randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
+
+    document.getElementById('dissDisplay').innerHTML = `${randomAdj} ${randomNoun}`
 }
