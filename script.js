@@ -1,7 +1,7 @@
 let adjectives = [
     'dumb',
-    'helpless, i-need-a-dollar-ass',
-    'poor, sissyass',
+    'helpless',
+    'poor',
     'incapable',
     'powerless',
     'feeble, delicate',
@@ -11,6 +11,7 @@ let adjectives = [
     'wishy-washy, incapacitated',
     'gutless',
     'chicken-livered',
+    'shitty',
     'sissified',
     'pigeon-hearted',
     'poor-mans',
@@ -19,14 +20,16 @@ let adjectives = [
     'useless, fucking retarded ass',
     'pointless',
     'hopeless',
-    'impotent, cant read good',
+    'impotent',
     'unusable, sick',
     'broken',
     'fat-nosed, sorry ass',
     'schizophrenic',
-    'diabetic, chronically stupid',
+    'diabetic',
+    'chronically stupid',
     'depressed, flimsy-necked',
-    'lonely, spiritless',
+    'lonely',
+    'spiritless',
     'psychotic',
     'prehistoric',
     'homosexual',
@@ -76,9 +79,13 @@ let nouns = [
 
 
 
-function newDiss() {
-    var randomAdj = adjectives[Math.floor(Math.random() * adjectives.length)];
-    var randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
+// function newDiss() {
+//     var randomAdj = adjectives[Math.floor(Math.random() * adjectives.length)];
+//     var randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
 
-    document.getElementById('dissDisplay').innerHTML = `${randomAdj} ${randomNoun}`
+//     document.getElementById('dissDisplay').innerHTML = `${randomAdj} ${randomNoun}`
+// }
+
+function newDiss() {
+    var random
 }
